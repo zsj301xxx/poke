@@ -71,7 +71,7 @@ let first=null;
                 console.log(number1);
                 let number2=$(this).data('number');
                 console.log(number1 + number2);
-                if (number1+number2<=10) {
+                if (number1+number2==14) {
                     console.log(1);
                     $('.active').animate({top:'0px'},function () {
                         $('.active').remove();
